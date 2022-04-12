@@ -33,13 +33,11 @@ generate_adversaries.py &rarr; dominant_directions.py &rarr; mufasa.py,
 where:
 - generate_adversaries produces a collection of samples;
 - dominant_directions assembles them into a data matrix and decomposes it, producing the basis; and
-- mufasa reads that basis and uses it in a SimBA-style attack. 
-
-Outputs from Mufasa can be visualised using plot_results.py, and, optionally, plot_results.py &rarr; 
-generate_results_summary.py (for combining multiple plots).
+- mufasa reads that basis and uses it in a SimBA-style attack.
 
 For sample command-line calls which illustrate the entire sequence, please see the "On the importance of input-specific 
-priors" reproduction section in the GFCS codebase, as detailed and linked above.
+priors" reproduction section in the GFCS codebase, as detailed and linked above. That repo also contains utilities
+for plotting the results.
 
 ## Setup
 
